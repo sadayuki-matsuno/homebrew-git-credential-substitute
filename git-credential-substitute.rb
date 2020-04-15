@@ -2,16 +2,16 @@
 class GitCredentialSubstitute < Formula
   desc "git credential helper, which switches git credentials for the username/organization."
   homepage "https://github.com/sadayuki-matsuno/git-credential-substitute"
-  version "0.1.8"
+  version "0.1.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sadayuki-matsuno/git-credential-substitute/releases/download/v0.1.8/git-credential-substitute_0.1.8_macOS-x86_64.tar.gz"
-    sha256 "d0d1dd09c76afd955bde0990b6c5574b944254a393048210e05188fe3f17fe3d"
+    url "https://github.com/sadayuki-matsuno/git-credential-substitute/releases/download/v0.1.9/git-credential-substitute_0.1.9_macOS-x86_64.tar.gz"
+    sha256 "3747883ea5d1f583188a33200c3782b1e50a054f942bb1c7e3e97048d72227fa"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sadayuki-matsuno/git-credential-substitute/releases/download/v0.1.8/git-credential-substitute_0.1.8_linux-x86_64.tar.gz"
-      sha256 "d910e1c9d1ad2335652ba960dbfda5f24b0c25b5e3ba0540f563c4026838ccaa"
+      url "https://github.com/sadayuki-matsuno/git-credential-substitute/releases/download/v0.1.9/git-credential-substitute_0.1.9_linux-x86_64.tar.gz"
+      sha256 "c64b2754d0f7af2f812905c75069e4668a8985ded8a2da170deb9cc52455bc01"
     end
   end
 
